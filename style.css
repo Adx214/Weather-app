@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body{
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+h1 {
+    text-align: left;
+    text-decoration: underline;
+    font-family: "Monoton", serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    margin-top: 0;
+    background-color: black;
+
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    height: 30vh;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.city{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.ipt{
+    height: 4vh;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.btns button{
+    margin: 2vw;
+    height: 6vh;
+    font-family: "Rubik Spray Paint", serif;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.btns button:hover{
+    background-color: cyan;
+    transition: all 0.5s ease-in;
+    box-shadow: 10px 5px 5px black;
+}
+.report{
+    font-size: large;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+}
+img{
+    height: 10vw;
+    width: 10vw;
+}
